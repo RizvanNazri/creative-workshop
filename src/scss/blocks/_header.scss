@@ -27,18 +27,22 @@
 .slider-controls {
     position: relative;
     &__arrows {
-        width: 250px;
+        position: absolute;
+        width: 200px;
         display: flex;
         align-items: center;
-        gap: 15px;
+        gap: 25px;
         opacity: 0.3;
+        right: 15px;
+        bottom: 0;
     }
     &__count {
         position: absolute;
         display: flex;
-        font-size: 28px;
-        top: 42px;
-        left: 103px;
+        gap: 5px;
+        font-size: 26px;
+        bottom: 26px !important;
+        left: -142px !important;
         color: #ffffff69;
         font-family: var(--font-accent);
         font-weight: 500;
@@ -46,11 +50,19 @@
 }
 
 .slider-controls__count-current, .swiper-pagination-current  {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 0.75;
     color: #fff;
 }
 
 .header a {
 	color: #fff;
+}
+
+.header__scrollbar {
+    pointer-events: all;
+    position: absolute;
+    right: 27.5%;
+    bottom: 2%;
+    width: 800px;
 }

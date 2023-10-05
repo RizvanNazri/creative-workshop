@@ -224,31 +224,43 @@ html, body {
   position: relative;
 }
 .slider-controls__arrows {
-  width: 250px;
+  position: absolute;
+  width: 200px;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 25px;
   opacity: 0.3;
+  right: 15px;
+  bottom: 0;
 }
 .slider-controls__count {
   position: absolute;
   display: flex;
-  font-size: 28px;
-  top: 42px;
-  left: 103px;
+  gap: 5px;
+  font-size: 26px;
+  bottom: 26px !important;
+  left: -142px !important;
   color: rgba(255, 255, 255, 0.4117647059);
   font-family: var(--font-accent);
   font-weight: 500;
 }
 
 .slider-controls__count-current, .swiper-pagination-current {
-  font-size: 45px;
+  font-size: 40px;
   line-height: 0.75;
   color: #fff;
 }
 
 .header a {
   color: #fff;
+}
+
+.header__scrollbar {
+  pointer-events: all;
+  position: absolute;
+  right: 27.5%;
+  bottom: 2%;
+  width: 800px;
 }
 
 .mobile-nav {
@@ -394,13 +406,15 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  cursor: grab;
+  color: #fff;
+}
+.slide__main {
   background-image: url(./../images/bg-main.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
-  cursor: grab;
 }
-
 .slide__header {
   text-align: center;
   line-height: 1.5;
@@ -408,4 +422,15 @@ html, body {
 
 .slide__title {
   font-weight: 600;
+}
+
+.swiper-scrollbar {
+  height: 5px !important;
+  border-radius: 3px !important;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.swiper-scrollbar-drag {
+  border-radius: 4px !important;
+  background-color: rgb(255, 255, 255) !important;
 }
