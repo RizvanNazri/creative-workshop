@@ -1,0 +1,25 @@
+.slide {
+    height: 100vh;
+    overflow: hidden;
+    padding-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./../images/bg-main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: #fff;
+
+    cursor: grab;
+
+    // &::before {
+    //     content: ' ';
+    // }
+    // &::after {
+    //     content: ' ';
+    // }
+}
+
+.slide__header {
+    text-align: center;
+}
