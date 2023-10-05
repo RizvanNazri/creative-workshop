@@ -1,7 +1,7 @@
 .slide {
     height: 100vh;
     overflow: hidden;
-    padding-bottom: 180px;
+    padding-bottom: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,15 +11,13 @@
     color: #fff;
 
     cursor: grab;
-
-    // &::before {
-    //     content: ' ';
-    // }
-    // &::after {
-    //     content: ' ';
-    // }
 }
 
 .slide__header {
     text-align: center;
+    line-height: 1.5;
+}
+
+.slide__title {
+    font-weight: 600;
 }

@@ -1,5 +1,6 @@
 /* Base */
 /* Reset and base styles  */
+@import url("https://fonts.googleapis.com/css2?family=Marmelad&family=Montserrat:wght@400;500;600&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -90,7 +91,7 @@ legend {
   --container-width: 1200px;
   --container-padding: 15px;
   --font-main: "Marmelad", sans-serif;
-  --font-title: "Ruslan Display", cursive;
+  --font-accent: "Montserrat", sans-serif;
   --page-bg: #fff;
   --text-color: #000;
   --accent: #ac182c;
@@ -116,7 +117,7 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 h2 {
@@ -234,12 +235,14 @@ html, body {
   display: flex;
   font-size: 28px;
   top: 42px;
-  left: 94px;
+  left: 103px;
   color: rgba(255, 255, 255, 0.4117647059);
+  font-family: var(--font-accent);
+  font-weight: 500;
 }
 
 .slider-controls__count-current, .swiper-pagination-current {
-  font-size: 44px;
+  font-size: 45px;
   line-height: 0.75;
   color: #fff;
 }
@@ -387,7 +390,7 @@ html, body {
 .slide {
   height: 100vh;
   overflow: hidden;
-  padding-bottom: 180px;
+  padding-bottom: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -400,4 +403,9 @@ html, body {
 
 .slide__header {
   text-align: center;
+  line-height: 1.5;
+}
+
+.slide__title {
+  font-weight: 600;
 }

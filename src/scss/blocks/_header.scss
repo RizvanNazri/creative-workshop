@@ -38,13 +38,15 @@
         display: flex;
         font-size: 28px;
         top: 42px;
-        left: 94px;
+        left: 103px;
         color: #ffffff69;
+        font-family: var(--font-accent);
+        font-weight: 500;
     }
 }
 
 .slider-controls__count-current, .swiper-pagination-current  {
-    font-size: 44px;
+    font-size: 45px;
     line-height: 0.75;
     color: #fff;
 }
