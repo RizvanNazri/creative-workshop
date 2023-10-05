@@ -1,0 +1,25 @@
+.header {
+	height: 100vh;
+	max-height: 1500px;
+	position: relative;
+	color: #fff;
+	background-image: url(./../images/bg-main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&__content {
+		position: absolute;
+		background-color: rgba(218, 218, 218, 0.322);
+		z-index: 9;
+		top: 50px;
+		right: 70px;
+		bottom: 80px;
+		left: 70px;
+
+		pointer-events: none;
+	}
+}
+
+.header a {
+	color: #fff;
+}

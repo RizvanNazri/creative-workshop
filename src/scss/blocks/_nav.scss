@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    pointer-events: all;
+}
+// .nav__logo {
+// }
+// .nav__logo-img {
+// }
+.nav__list {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 30px;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+}
+
+.nav__list {
+    a {
+        position: relative;
+        transition: 0.3s;
+        &:hover {
+            color: #e04d4d;
+        }
+    }
+} 
