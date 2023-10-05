@@ -14,24 +14,6 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    &__conception {
-        
-    }
-    &__music {
-        
-    }
-    &__graphic {
-        
-    }
-    &__rituals {
-        
-    }
-    &__sales {
-        
-    }
-    &__commerce {
-        
-    }
 }
 
 .slide__header {
@@ -41,4 +23,85 @@
 
 .slide__title {
     font-weight: 600;
+}
+
+.slide__conception {
+    background-image: url(./../images/bg-first.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-title {
+        
+    }
+    &-text {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+}
+
+.slide__music {
+    background-image: url(./../images/bg-second.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-title {
+        
+    }
+    &-text {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+}
+
+.slide__graphic {
+    background-image: url(./../images/bg-third.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-title {
+        
+    }
+    &-text {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+}
+.slide__rituals {
+    background-image: url(./../images/bg-fourth.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-title {
+        
+    }
+    &-text {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+}
+.slide__sales {
+    background-image: url(./../images/bg-fiveth.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-title {
+        
+    }
+    &-text {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+}
+.slide__commerce {
+    background-image: url(./../images/bg-sixth.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-title {
+        
+    }
+    &-text {
+        margin: 0 auto;
+        max-width: 90%;
+    }
 }

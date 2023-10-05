@@ -378,7 +378,7 @@ html, body {
   align-items: center;
   column-gap: 30px;
   pointer-events: all;
-  padding: 15px 20px 0;
+  padding: 20px 35px 0;
 }
 
 .nav__list ul {
@@ -415,6 +415,7 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .slide__header {
   text-align: center;
   line-height: 1.5;
@@ -422,6 +423,72 @@ html, body {
 
 .slide__title {
   font-weight: 600;
+}
+
+.slide__conception {
+  background-image: url(./../images/bg-first.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide__conception-text {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.slide__music {
+  background-image: url(./../images/bg-second.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide__music-text {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.slide__graphic {
+  background-image: url(./../images/bg-third.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide__graphic-text {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.slide__rituals {
+  background-image: url(./../images/bg-fourth.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide__rituals-text {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.slide__sales {
+  background-image: url(./../images/bg-fiveth.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide__sales-text {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.slide__commerce {
+  background-image: url(./../images/bg-sixth.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide__commerce-text {
+  margin: 0 auto;
+  max-width: 90%;
 }
 
 .swiper-scrollbar {
